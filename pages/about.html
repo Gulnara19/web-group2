@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<script defer src="../js/login-popup.js"></script>
+    <title>Вёрстка макета (четвертая страница)</title>
+</head>
+
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="../img/icons8-редактировать.svg" alt="Логотип" width="64" height="64">
+
+            <ul class="site-menu">
+                <li><a class="menu-link" href="index.html">Главная</a></li>
+                <li><a class="menu-link" href="students.html">Студенты</a></li>
+                <li><a class="menu-link" href="contakts.html">Контакты</a></li>
+                <li><a class="menu-link active-link" href="#">О курсе</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form" action="#" method="get">
+                    <input class="login-input" name="Login" type="text" placeholder="Логин" required="">
+    
+                    <input class="password-input" name="password" placeholder="Пароль" required="">
+    
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main class="main-content main-about">
+            <h1 class="main-heading about-heading">О курсе 📱</h1>
+
+            <p class="about-text">Посмотрите видео о нас</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0v7pdd4za6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </main>
+        <footer class="footer">
+            <p class="copyright">2022 &#169; <a class="innop-link" href="https://innopolis.com/">Иннополис</a></p>
+        </footer>
+    </body>
+
+</html>
